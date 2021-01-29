@@ -1,11 +1,12 @@
 package com.yueguang.model;
 
 import java.io.Serializable;
+import java.util.Date;
 
 public class User implements Serializable {
     private Integer id;
     private String username;
-    private String birthday;
+    private Date birthday;
     private String sex;
     private String address;
 
@@ -25,11 +26,11 @@ public class User implements Serializable {
         this.username = username;
     }
 
-    public String getBirthday() {
+    public Date getBirthday() {
         return birthday;
     }
 
-    public void setBirthday(String birthday) {
+    public void setBirthday(Date birthday) {
         this.birthday = birthday;
     }
 
