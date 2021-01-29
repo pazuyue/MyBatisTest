@@ -21,4 +21,7 @@ public interface IUserDao {
 
     @Delete("delete from user where id=#{id}")
     int deleteUser(int userid);
+
+    @Select("select * from user where id=#{id}")
+    User findOneUserById(int userid);
 }

@@ -70,5 +70,10 @@ public class MybaitsTest {
         System.out.println(userid);
     }
 
+    @Test
+    public void getOneUser(){
+        User user = userDao.findOneUserById(1);
+        System.out.println(user);
+    }
 
 }

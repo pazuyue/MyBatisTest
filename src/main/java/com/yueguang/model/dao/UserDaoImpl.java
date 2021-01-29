@@ -41,4 +41,10 @@ public class UserDaoImpl implements IUserDao {
         return userid;
     }
 
+    public User findOneUserById(int userid) {
+        SqlSession session = factory.openSession();
+        User user =session.selectOne("com.yueguang.model.dao.IUserDao.findOneUserById",userid);
+        return user;
+    }
+
 }
