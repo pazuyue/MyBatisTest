@@ -51,6 +51,7 @@ public class MybaitsTest {
         userone.setSex("1");
         userone.setBirthday(new Date());
         userDao.saveUser(userone);
+        System.out.print("User.id()=" + userone.getId());
     }
 
     @Test

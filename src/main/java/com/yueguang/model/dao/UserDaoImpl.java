@@ -24,7 +24,7 @@ public class UserDaoImpl implements IUserDao {
     public void saveUser(User user) {
         SqlSession session = factory.openSession();
         session.insert("com.yueguang.model.dao.IUserDao.saveUser",user);
-        //session.commit();
+        session.commit();
         session.close();
     }
 
