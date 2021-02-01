@@ -25,6 +25,7 @@ public class MybaitsTest {
          in = Resources.getResourceAsStream("sqlMapConfig.xml");
          factory = new SqlSessionFactoryBuilder().build(in);
          userDao = new UserDaoImpl(factory);
+
     }
 
     @After
@@ -64,7 +65,7 @@ public class MybaitsTest {
 
     @Test
     public void deleteUser(){
-        int userid =userDao.deleteUser(5);
+        int userid =userDao.deleteUser(15);
         System.out.println(userid);
     }
 

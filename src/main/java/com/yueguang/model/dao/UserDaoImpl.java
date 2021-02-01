@@ -25,7 +25,7 @@ public class UserDaoImpl implements IUserDao {
     }
 
     public List<User> findAll() {
-        SqlSession session = factory.openSession();
+        this.session = factory.openSession();
         List<User> users = session.selectList("com.yueguang.model.dao.IUserDao.findAll");
         return users;
     }
