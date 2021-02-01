@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3eccda82-4e1a-4e21-b08a-357534688e6e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/jdbcConfig.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yueguang/model/dao/IUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yueguang/model/dao/IUserDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/yueguang/model/dao/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yueguang/model/dao/UserDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/sqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sqlMapConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/MybaitsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MybaitsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yueguang/model/dao/IUserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yueguang/model/dao/IUserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sqlMapConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MybaitsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/MybaitsTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,7 +30,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1303" />
+          <entry key="java" value="1340" />
           <entry key="properties" value="35" />
           <entry key="txt" value="14" />
           <entry key="xml" value="202" />
@@ -45,7 +39,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1303" />
+          <entry key="JAVA" value="1340" />
           <entry key="PLAIN_TEXT" value="14" />
           <entry key="Properties" value="35" />
           <entry key="XML" value="238" />
@@ -53,8 +47,9 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="11" />
-          <entry key="java" value="13" />
+          <entry key="SqlSessionManager" value="1" />
+          <entry key="class" value="16" />
+          <entry key="java" value="15" />
           <entry key="properties" value="1" />
           <entry key="xml" value="4" />
           <entry key="xnl" value="1" />
@@ -62,9 +57,10 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="11" />
-          <entry key="JAVA" value="13" />
+          <entry key="CLASS" value="16" />
+          <entry key="JAVA" value="15" />
           <entry key="Properties" value="1" />
+          <entry key="UML" value="1" />
           <entry key="XML" value="5" />
         </counts>
       </usages-collector>
@@ -72,11 +68,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/MybaitsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+            <state relative-caret-position="301">
+              <caret line="31" column="8" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,49 +81,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/jdbcConfig.properties">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5.jar!/org/apache/ibatis/session/SqlSessionFactory.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="133">
+              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/sqlMapConfig.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="59" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/yueguang/model/dao/UserDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+            <state relative-caret-position="266">
+              <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#509#510#0" expanded="true" />
+                <element signature="e#545#546#0" expanded="true" />
+                <element signature="e#797#798#0" expanded="true" />
+                <element signature="e#881#882#0" expanded="true" />
+                <element signature="e#928#929#0" expanded="true" />
+                <element signature="e#1014#1015#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5.jar!/org/apache/ibatis/session/SqlSession.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5.jar!/org/apache/ibatis/session/defaults/DefaultSqlSession.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2774">
-              <caret line="191" selection-start-line="191" selection-end-line="191" />
             </state>
           </provider>
         </entry>
@@ -135,7 +110,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/yueguang/model/dao/IUserDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
+            <state relative-caret-position="266">
               <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -154,6 +129,14 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>commit()</find>
+    </findStrings>
+    <dirStrings>
+      <dir>F:\javaProject\day_mybatis</dir>
+    </dirStrings>
+  </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -168,11 +151,11 @@
         <option value="$PROJECT_DIR$/src/main/resources/com/yuegaung/dao/IUserDao.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/yueguang/model/User.java" />
-        <option value="$PROJECT_DIR$/src/test/java/MybaitsTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yueguang/model/dao/IUserDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/yueguang/model/dao/UserDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/sqlMapConfig.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/jdbcConfig.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/MybaitsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yueguang/model/dao/UserDaoImpl.java" />
       </list>
     </option>
   </component>
@@ -271,7 +254,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1612025094196" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1612197857196" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -289,7 +272,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MybaitsTest.testFindAll">
+  <component name="RunManager" selected="JUnit.MybaitsTest.testSave">
     <configuration name="MybaitsTest.deleteUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="day_mybatis" />
       <option name="PACKAGE_NAME" value="" />
@@ -349,8 +332,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MybaitsTest.testFindAll" />
         <item itemvalue="JUnit.MybaitsTest.testSave" />
+        <item itemvalue="JUnit.MybaitsTest.testFindAll" />
         <item itemvalue="JUnit.MybaitsTest.getOneUser" />
         <item itemvalue="JUnit.MybaitsTest.deleteUser" />
         <item itemvalue="JUnit.MybaitsTest.updateUser" />
@@ -372,7 +355,7 @@
       <workItem from="1611936589299" duration="1083000" />
       <workItem from="1611938483855" duration="3247000" />
       <workItem from="1612018121828" duration="4417000" />
-      <workItem from="1612193924977" duration="592000" />
+      <workItem from="1612193924977" duration="2646000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1611936818684</created>
@@ -388,46 +371,53 @@
       <option name="project" value="LOCAL" />
       <updated>1611941372519</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="注解试增删查改">
+      <created>1612195594060</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1612195594060</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MybaitsTest_deleteUser - 2021.01.30 at 01h 28m 17s.xml">
-      <configuration name="MybaitsTest.deleteUser" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MybaitsTest_getOneUser - 2021.01.30 at 01h 35m 03s.xml">
-      <configuration name="MybaitsTest.getOneUser" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MybaitsTest_testSave - 2021.01.30 at 23h 48m 00s.xml">
+    <history-entry file="MybaitsTest_testSave - 2021.02.02 at 00h 35m 31s.xml">
       <configuration name="MybaitsTest.testSave" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybaitsTest_testSave - 2021.01.30 at 23h 48m 35s.xml">
+    <history-entry file="MybaitsTest_testSave - 2021.02.02 at 00h 36m 56s.xml">
       <configuration name="MybaitsTest.testSave" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybaitsTest_testSave - 2021.01.30 at 23h 50m 35s.xml">
+    <history-entry file="MybaitsTest_testSave - 2021.02.02 at 00h 37m 45s.xml">
       <configuration name="MybaitsTest.testSave" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybaitsTest_testSave - 2021.01.31 at 00h 09m 02s.xml">
-      <configuration name="MybaitsTest.testSave" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MybaitsTest_testSave - 2021.01.31 at 00h 09m 36s.xml">
-      <configuration name="MybaitsTest.testSave" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MybaitsTest_testSave - 2021.01.31 at 00h 09m 48s.xml">
-      <configuration name="MybaitsTest.testSave" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MybaitsTest_testSave - 2021.01.31 at 00h 10m 06s.xml">
-      <configuration name="MybaitsTest.testSave" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MybaitsTest_testFindAll - 2021.01.31 at 00h 44m 51s.xml">
+    <history-entry file="MybaitsTest_testFindAll - 2021.02.02 at 00h 40m 30s.xml">
       <configuration name="MybaitsTest.testFindAll" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MybaitsTest_testFindAll - 2021.02.02 at 00h 40m 39s.xml">
+      <configuration name="MybaitsTest.testFindAll" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MybaitsTest_testFindAll - 2021.02.02 at 00h 40m 44s.xml">
+      <configuration name="MybaitsTest.testFindAll" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MybaitsTest_testSave - 2021.02.02 at 00h 40m 53s.xml">
+      <configuration name="MybaitsTest.testSave" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MybaitsTest_testFindAll - 2021.02.02 at 00h 43m 34s.xml">
+      <configuration name="MybaitsTest.testFindAll" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MybaitsTest_testSave - 2021.02.02 at 00h 43m 40s.xml">
+      <configuration name="MybaitsTest.testSave" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MybaitsTest_testSave - 2021.02.02 at 00h 44m 07s.xml">
+      <configuration name="MybaitsTest.testSave" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15199000" />
+    <option name="totallyTimeSpent" value="17253000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1416" extended-state="7" />
+    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2599364" />
@@ -448,7 +438,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32730016" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32683307" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -539,13 +529,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MybaitsTest.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5.jar!/org/apache/ibatis/session/defaults/DefaultSqlSession.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="2774">
+          <caret line="191" selection-start-line="191" selection-end-line="191" />
         </state>
       </provider>
     </entry>
@@ -563,36 +550,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yueguang/model/dao/UserDaoImpl.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5.jar!/org/apache/ibatis/session/SqlSession.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+        <state relative-caret-position="710">
+          <caret line="55" column="9" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/org.apache.ibatis.session.SqlSessionManager">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>org.apache.ibatis.session.SqlSessionManager</OriginalElement>
+          <nodes>
+            <node x="" y="">org.apache.ibatis.session.SqlSessionManager</node>
+            <node x="" y="">org.apache.ibatis.session.SqlSessionFactory</node>
+            <node x="" y="">java.io.Closeable</node>
+            <node x="" y="">java.lang.AutoCloseable</node>
+            <node x="" y="">org.apache.ibatis.session.SqlSession</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="146.5" y="135.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5.jar!/org/apache/ibatis/session/SqlSessionManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1596">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yueguang/model/dao/IUserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5.jar!/org/apache/ibatis/session/SqlSession.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5.jar!/org/apache/ibatis/session/SqlSessionFactory.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="133">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5.jar!/org/apache/ibatis/session/defaults/DefaultSqlSession.class">
+    <entry file="file://$PROJECT_DIR$/src/test/java/MybaitsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2774">
-          <caret line="191" selection-start-line="191" selection-end-line="191" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yueguang/model/dao/IUserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        <state relative-caret-position="301">
+          <caret line="31" column="8" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yueguang/model/dao/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#509#510#0" expanded="true" />
+            <element signature="e#545#546#0" expanded="true" />
+            <element signature="e#797#798#0" expanded="true" />
+            <element signature="e#881#882#0" expanded="true" />
+            <element signature="e#928#929#0" expanded="true" />
+            <element signature="e#1014#1015#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -24,13 +24,11 @@ public class MybaitsTest {
     public void init() throws IOException {
          in = Resources.getResourceAsStream("sqlMapConfig.xml");
          factory = new SqlSessionFactoryBuilder().build(in);
-         sqlSession = factory.openSession();
          userDao = new UserDaoImpl(factory);
     }
 
     @After
     public void destory() throws IOException {
-        sqlSession.close();
         in.close();
     }
 
@@ -40,13 +38,12 @@ public class MybaitsTest {
         for (User user : users){
             System.out.println(user);
         }
-        in.close();
     }
 
     @Test
     public void testSave() throws IOException {
         User userone = new User();
-        userone.setUsername("月光-One");
+        userone.setUsername("月光-Two");
         userone.setAddress("广州");
         userone.setSex("1");
         userone.setBirthday(new Date());
