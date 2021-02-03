@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.yueguang.model.dao.IXUserDao">
+
+    <sql id="defaultUser">
+        select * from User
+    </sql>
+    <select id="findAll" resultType="user">
+       <include refid="defaultUser"/>
+    </select>
+
+    <select id="findUserByCondition" resultType="user" parameterType="user">
+        <include refid="defaultUser"/>
+        <where>
+            <if test="username !=null and username!=''">
+                and username = #{username}
+            </if>
+            <if test="sex !=null and sex!='' ">
+                and sex = #{sex}
+            </if>
+        </where>
+    </select>
+    
+    <select id="findUserInIds" resultType="user" parameterType="queryVo">
+        <include refid="defaultUser"/>
+        <where>
+            <if test="ids !=null and ids.size()>0">
+                <foreach collection="ids" open="and id in (" close=")" item="id" separator=",">
+                    #{id}
+                </foreach>
+            </if>
+        </where>
+    </select>
+</mapper>

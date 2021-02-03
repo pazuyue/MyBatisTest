@@ -3,9 +3,11 @@
         PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
-    <properties resource="jdbcConfig.properties">
+    <properties resource="jdbcConfig.properties"/>
 
-    </properties>
+    <typeAliases>
+        <package name="com.yueguang.model"/>
+    </typeAliases>
     <environments default="mysql">
         <environment id="mysql">
             <transactionManager type="JDBC"/>
@@ -18,6 +20,8 @@
         </environment>
     </environments>
     <mappers>
-        <mapper class="com.yueguang.model.dao.IUserDao"/>
+        <!--基于注解配置-->
+        <!--<mapper class="com.yueguang.model.dao.IUserDao"/>-->
+        <mapper resource="com/yueguang/dao/IUserDao.xml"/>
     </mappers>
 </configuration>
