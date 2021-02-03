@@ -1,5 +1,6 @@
 package com.yueguang.model.dao;
 
+import com.yueguang.model.QueryVo;
 import com.yueguang.model.User;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
@@ -16,7 +17,7 @@ public class UserDaoImpl implements IUserDao {
     public UserDaoImpl(SqlSessionFactory factory) {
 
         this.factory = factory;
-        this.session = factory.openSession();
+        this.session = factory.openSession(true);
     }
 
     @After
@@ -48,4 +49,13 @@ public class UserDaoImpl implements IUserDao {
         return user;
     }
 
+    public List<User> findUserByCondition(User user) {
+        List<User> users = this.session.selectList("com.yueguang.model.dao.IUserDao.findUserByCondition",user);
+        return users;
+    }
+
+    public List<User> findUserInIds(QueryVo queryVo) {
+        List<User> users = this.session.selectList("com.yueguang.model.dao.IUserDao.findUserInIds",queryVo);
+        return users;
+    }
 }

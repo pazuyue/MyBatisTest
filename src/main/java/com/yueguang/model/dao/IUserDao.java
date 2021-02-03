@@ -1,5 +1,6 @@
 package com.yueguang.model.dao;
 
+import com.yueguang.model.QueryVo;
 import com.yueguang.model.User;
 import org.apache.ibatis.annotations.*;
 
@@ -22,4 +23,37 @@ public interface IUserDao {
 
     @Select("select * from user where id=#{id}")
     User findOneUserById(int userid);
+
+    /**
+     * 根据条件查询
+     * @return
+     */
+    @Select({
+            "<script>" ,
+            "SELECT * FROM user",
+            "<where>",
+            "<if test='username != null and username != \" \" '>",
+            " and username=#{username}",
+            "</if>",
+            "<if test='sex != null and username != \" \" '>",
+            " and sex=#{sex}",
+            "</if>",
+            "</where>",
+            "</script>"
+    })
+    List<User> findUserByCondition(User user);
+
+    @Select({
+            "<script>" ,
+            "SELECT * FROM user",
+            "<where>",
+                "<if test='ids != null and ids.size() >0 '>",
+                    "<foreach collection='ids' open='and id in ( ' close=')' item='id' separator=','>",
+                        "#{id}",
+                    "</foreach>",
+                "</if>",
+            "</where>",
+            "</script>"
+    })
+    List<User> findUserInIds(QueryVo queryVo);
 }

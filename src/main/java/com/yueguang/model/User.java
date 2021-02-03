@@ -7,7 +7,7 @@ public class User implements Serializable {
     private Integer id;
     private String username;
     private Date birthday;
-    private String sex;
+    private int sex;
     private String address;
 
     public Integer getId() {
@@ -34,11 +34,11 @@ public class User implements Serializable {
         this.birthday = birthday;
     }
 
-    public String getSex() {
+    public int getSex() {
         return sex;
     }
 
-    public void setSex(String sex) {
+    public void setSex(int sex) {
         this.sex = sex;
     }
 
@@ -55,8 +55,8 @@ public class User implements Serializable {
         return "User{" +
                 "id=" + id +
                 ", username='" + username + '\'' +
-                ", birthday='" + birthday + '\'' +
-                ", sex='" + sex + '\'' +
+                ", birthday=" + birthday +
+                ", sex=" + sex +
                 ", address='" + address + '\'' +
                 '}';
     }
