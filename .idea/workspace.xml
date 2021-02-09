@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3eccda82-4e1a-4e21-b08a-357534688e6e" name="Default Changelist" comment="">
+    <list default="true" id="3eccda82-4e1a-4e21-b08a-357534688e6e" name="Default Changelist" comment="注解式子查询 foreach">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yueguang/model/dao/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yueguang/model/dao/UserDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MybaitsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MybaitsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MybaitsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/MybaitsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yueguang/model/dao/IXUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yueguang/model/dao/IXUserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yueguang/model/dao/XUserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yueguang/model/dao/XUserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/yueguang/dao/IUserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/yueguang/dao/IUserDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/jdbcConfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jdbcConfig.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/XMybaitsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/XMybaitsTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,45 +26,49 @@
           <entry key="project.open.time.102" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.74" value="1" />
+          <entry key="project.open.time.75" value="1" />
+          <entry key="project.open.time.76" value="1" />
           <entry key="project.open.time.87" value="1" />
           <entry key="project.open.time.93" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.open.time.97" value="1" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1344" />
-          <entry key="properties" value="35" />
-          <entry key="txt" value="14" />
-          <entry key="xml" value="202" />
+          <entry key="java" value="2394" />
+          <entry key="properties" value="63" />
+          <entry key="txt" value="27" />
+          <entry key="xml" value="655" />
           <entry key="xnl" value="36" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1344" />
-          <entry key="PLAIN_TEXT" value="14" />
-          <entry key="Properties" value="35" />
-          <entry key="XML" value="238" />
+          <entry key="JAVA" value="2394" />
+          <entry key="PLAIN_TEXT" value="27" />
+          <entry key="Properties" value="63" />
+          <entry key="SQL" value="6" />
+          <entry key="XML" value="685" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="SqlSessionManager" value="1" />
-          <entry key="class" value="16" />
-          <entry key="java" value="15" />
-          <entry key="properties" value="1" />
-          <entry key="xml" value="4" />
+          <entry key="class" value="18" />
+          <entry key="java" value="44" />
+          <entry key="properties" value="3" />
+          <entry key="xml" value="15" />
           <entry key="xnl" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="16" />
-          <entry key="JAVA" value="15" />
-          <entry key="Properties" value="1" />
+          <entry key="CLASS" value="18" />
+          <entry key="JAVA" value="44" />
+          <entry key="Properties" value="3" />
           <entry key="UML" value="1" />
-          <entry key="XML" value="5" />
+          <entry key="XML" value="16" />
         </counts>
       </usages-collector>
     </session>
@@ -70,31 +76,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/MybaitsTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/XMybaitsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="684">
+              <caret line="53" column="33" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/yueguang/model/dao/UserDaoImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/jdbcConfig.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#509#510#0" expanded="true" />
-                <element signature="e#545#546#0" expanded="true" />
-                <element signature="e#797#798#0" expanded="true" />
-                <element signature="e#881#882#0" expanded="true" />
-                <element signature="e#928#929#0" expanded="true" />
-                <element signature="e#1014#1015#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="57">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yueguang/model/dao/IXUserDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="3" selection-start-column="3" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/com/yueguang/dao/IUserDao.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="703">
+              <caret line="37" column="87" selection-start-line="37" selection-start-column="87" selection-end-line="37" selection-end-column="87" />
             </state>
           </provider>
         </entry>
@@ -103,9 +115,23 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/yueguang/model/dao/IUserDao.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="266">
-              <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+              <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="72" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yueguang/model/dao/XUserDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="799">
+              <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#406#407#0" expanded="true" />
+                <element signature="e#462#463#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -125,6 +151,7 @@
     <findStrings>
       <find>commit()</find>
       <find>openSession</find>
+      <find>username</find>
     </findStrings>
     <dirStrings>
       <dir>F:\javaProject\day_mybatis</dir>
@@ -144,11 +171,16 @@
         <option value="$PROJECT_DIR$/src/main/resources/com/yuegaung/dao/IUserDao.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/yueguang/model/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yueguang/model/QueryVo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yueguang/model/dao/UserDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yueguang/model/dao/IUserDao.java" />
         <option value="$PROJECT_DIR$/src/main/resources/sqlMapConfig.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/jdbcConfig.properties" />
         <option value="$PROJECT_DIR$/src/test/java/MybaitsTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/yueguang/model/dao/UserDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/XMybaitsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yueguang/model/dao/IXUserDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yueguang/model/dao/XUserDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/yueguang/dao/IUserDao.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/jdbcConfig.properties" />
       </list>
     </option>
   </component>
@@ -158,9 +190,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="102" />
-    <option name="y" value="-24" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-5" />
     <option name="width" value="2576" />
     <option name="height" value="1460" />
   </component>
@@ -170,6 +201,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -224,6 +256,14 @@
               <item name="day_mybatis" type="b2602c69:ProjectViewProjectNode" />
               <item name="day_mybatis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="day_mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day_mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -241,17 +281,22 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1612198279436" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1612804113639" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="com.yueguang.model.dao" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -265,71 +310,71 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MybaitsTest.deleteUser">
-    <configuration name="MybaitsTest.deleteUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.XMybaitsTest.saveUser">
+    <configuration name="XMybaitsTest.saveUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="day_mybatis" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MybaitsTest" />
-      <option name="METHOD_NAME" value="deleteUser" />
+      <option name="MAIN_CLASS_NAME" value="XMybaitsTest" />
+      <option name="METHOD_NAME" value="saveUser" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MybaitsTest.getOneUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="XMybaitsTest.testFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="day_mybatis" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MybaitsTest" />
-      <option name="METHOD_NAME" value="getOneUser" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MybaitsTest.testFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="day_mybatis" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MybaitsTest" />
+      <option name="MAIN_CLASS_NAME" value="XMybaitsTest" />
       <option name="METHOD_NAME" value="testFindAll" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MybaitsTest.testSave" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="XMybaitsTest.testFindUserByCondition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="day_mybatis" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MybaitsTest" />
+      <option name="MAIN_CLASS_NAME" value="XMybaitsTest" />
+      <option name="METHOD_NAME" value="testFindUserByCondition" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XMybaitsTest.testFindUserInIds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="day_mybatis" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="XMybaitsTest" />
+      <option name="METHOD_NAME" value="testFindUserInIds" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XMybaitsTest.testSave" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="day_mybatis" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="XMybaitsTest" />
       <option name="METHOD_NAME" value="testSave" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MybaitsTest.updateUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="day_mybatis" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MybaitsTest" />
-      <option name="METHOD_NAME" value="updateUser" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="JUnit.MybaitsTest.testFindAll" />
-      <item itemvalue="JUnit.MybaitsTest.testSave" />
-      <item itemvalue="JUnit.MybaitsTest.updateUser" />
-      <item itemvalue="JUnit.MybaitsTest.deleteUser" />
-      <item itemvalue="JUnit.MybaitsTest.getOneUser" />
+      <item itemvalue="JUnit.XMybaitsTest.testFindAll" />
+      <item itemvalue="JUnit.XMybaitsTest.testFindUserByCondition" />
+      <item itemvalue="JUnit.XMybaitsTest.testFindUserInIds" />
+      <item itemvalue="JUnit.XMybaitsTest.testSave" />
+      <item itemvalue="JUnit.XMybaitsTest.saveUser" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MybaitsTest.deleteUser" />
-        <item itemvalue="JUnit.MybaitsTest.testSave" />
-        <item itemvalue="JUnit.MybaitsTest.testFindAll" />
-        <item itemvalue="JUnit.MybaitsTest.getOneUser" />
-        <item itemvalue="JUnit.MybaitsTest.updateUser" />
+        <item itemvalue="JUnit.XMybaitsTest.saveUser" />
+        <item itemvalue="JUnit.XMybaitsTest.testFindAll" />
+        <item itemvalue="JUnit.XMybaitsTest.testSave" />
+        <item itemvalue="JUnit.XMybaitsTest.testFindUserInIds" />
+        <item itemvalue="JUnit.XMybaitsTest.testFindUserByCondition" />
       </list>
     </recent_temporary>
   </component>
@@ -348,7 +393,10 @@
       <workItem from="1611936589299" duration="1083000" />
       <workItem from="1611938483855" duration="3247000" />
       <workItem from="1612018121828" duration="4417000" />
-      <workItem from="1612193924977" duration="3019000" />
+      <workItem from="1612193924977" duration="3310000" />
+      <workItem from="1612280479428" duration="5935000" />
+      <workItem from="1612364861367" duration="5324000" />
+      <workItem from="1612798311955" duration="2975000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1611936818684</created>
@@ -378,49 +426,63 @@
       <option name="project" value="LOCAL" />
       <updated>1612197913124</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="注解试增删查改">
+      <created>1612198296623</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1612198296623</updated>
+    </task>
+    <task id="LOCAL-00006" summary="注解式子查询 foreach">
+      <created>1612365494590</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1612365494590</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MybaitsTest_testSave - 2021.02.02 at 00h 36m 56s.xml">
-      <configuration name="MybaitsTest.testSave" configurationId="JUnit" />
+    <history-entry file="XMybaitsTest_testFindAll - 2021.02.09 at 00h 55m 37s.xml">
+      <configuration name="XMybaitsTest.testFindAll" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybaitsTest_testSave - 2021.02.02 at 00h 37m 45s.xml">
-      <configuration name="MybaitsTest.testSave" configurationId="JUnit" />
+    <history-entry file="XMybaitsTest_testFindAll - 2021.02.09 at 00h 56m 33s.xml">
+      <configuration name="XMybaitsTest.testFindAll" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybaitsTest_testFindAll - 2021.02.02 at 00h 40m 30s.xml">
-      <configuration name="MybaitsTest.testFindAll" configurationId="JUnit" />
+    <history-entry file="XMybaitsTest_testFindAll - 2021.02.09 at 00h 57m 28s.xml">
+      <configuration name="XMybaitsTest.testFindAll" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybaitsTest_testFindAll - 2021.02.02 at 00h 40m 39s.xml">
-      <configuration name="MybaitsTest.testFindAll" configurationId="JUnit" />
+    <history-entry file="XMybaitsTest_saveUser - 2021.02.09 at 01h 00m 47s.xml">
+      <configuration name="XMybaitsTest.saveUser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybaitsTest_testFindAll - 2021.02.02 at 00h 40m 44s.xml">
-      <configuration name="MybaitsTest.testFindAll" configurationId="JUnit" />
+    <history-entry file="XMybaitsTest_saveUser - 2021.02.09 at 01h 02m 23s.xml">
+      <configuration name="XMybaitsTest.saveUser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybaitsTest_testSave - 2021.02.02 at 00h 40m 53s.xml">
-      <configuration name="MybaitsTest.testSave" configurationId="JUnit" />
+    <history-entry file="XMybaitsTest_saveUser - 2021.02.09 at 01h 03m 16s.xml">
+      <configuration name="XMybaitsTest.saveUser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybaitsTest_testFindAll - 2021.02.02 at 00h 43m 34s.xml">
-      <configuration name="MybaitsTest.testFindAll" configurationId="JUnit" />
+    <history-entry file="XMybaitsTest_saveUser - 2021.02.09 at 01h 04m 59s.xml">
+      <configuration name="XMybaitsTest.saveUser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybaitsTest_testSave - 2021.02.02 at 00h 43m 40s.xml">
-      <configuration name="MybaitsTest.testSave" configurationId="JUnit" />
+    <history-entry file="XMybaitsTest_saveUser - 2021.02.09 at 01h 05m 39s.xml">
+      <configuration name="XMybaitsTest.saveUser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybaitsTest_testSave - 2021.02.02 at 00h 44m 07s.xml">
-      <configuration name="MybaitsTest.testSave" configurationId="JUnit" />
+    <history-entry file="XMybaitsTest_saveUser - 2021.02.09 at 01h 06m 57s.xml">
+      <configuration name="XMybaitsTest.saveUser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybaitsTest_testSave - 2021.02.02 at 00h 46m 45s.xml">
-      <configuration name="MybaitsTest.testSave" configurationId="JUnit" />
+    <history-entry file="XMybaitsTest_saveUser - 2021.02.09 at 01h 07m 25s.xml">
+      <configuration name="XMybaitsTest.saveUser" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17626000" />
+    <option name="totallyTimeSpent" value="32151000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
+    <frame x="-5" y="0" width="2576" height="1460" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2599364" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26589826" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -429,7 +491,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28783152" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25942686" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39969835" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -438,7 +500,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32683307" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32503772" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -459,7 +521,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="初始化" />
     <MESSAGE value="注解试增删查改" />
-    <option name="LAST_COMMIT_MESSAGE" value="注解试增删查改" />
+    <MESSAGE value="注解式子查询 foreach" />
+    <option name="LAST_COMMIT_MESSAGE" value="注解式子查询 foreach" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/yueguag/dao.java" />
@@ -492,36 +555,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yueguang/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#286#287#0" expanded="true" />
-            <element signature="e#311#312#0" expanded="true" />
-            <element signature="e#348#349#0" expanded="true" />
-            <element signature="e#376#377#0" expanded="true" />
-            <element signature="e#411#412#0" expanded="true" />
-            <element signature="e#442#443#0" expanded="true" />
-            <element signature="e#490#491#0" expanded="true" />
-            <element signature="e#530#531#0" expanded="true" />
-            <element signature="e#563#564#0" expanded="true" />
-            <element signature="e#594#595#0" expanded="true" />
-            <element signature="e#640#641#0" expanded="true" />
-            <element signature="e#680#681#0" expanded="true" />
-            <element signature="e#710#711#0" expanded="true" />
-            <element signature="e#736#737#0" expanded="true" />
-            <element signature="e#774#775#0" expanded="true" />
-            <element signature="e#804#805#0" expanded="true" />
-            <element signature="e#838#839#0" expanded="true" />
-            <element signature="e#868#869#0" expanded="true" />
-            <element signature="e#914#915#0" expanded="true" />
-            <element signature="e#952#953#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5.jar!/org/apache/ibatis/session/Configuration.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="310">
@@ -533,27 +566,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2774">
           <caret line="191" selection-start-line="191" selection-end-line="191" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbcConfig.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/sqlMapConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="59" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5.jar!/org/apache/ibatis/session/SqlSession.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="710">
-          <caret line="55" column="9" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -571,7 +583,7 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="146.5" y="135.0" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="147.0" y="135.0" />
           <SelectedNodes />
           <Categories />
           <SCOPE>All</SCOPE>
@@ -586,16 +598,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yueguang/model/dao/IUserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5.jar!/org/apache/ibatis/session/SqlSessionFactory.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -603,29 +605,148 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MybaitsTest.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5.jar!/org/apache/ibatis/session/SqlSession.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="710">
+          <caret line="69" column="18" selection-start-line="69" selection-start-column="18" selection-end-line="69" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="136" column="17" selection-start-line="136" selection-start-column="17" selection-end-line="136" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yueguang/model/dao/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-30">
+          <caret line="11" column="44" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yueguang/model/dao/UserDaoImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yueguang/model/QueryVo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+        <state relative-caret-position="76">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="20" />
+          <folding>
+            <element signature="e#157#158#0" expanded="true" />
+            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yueguang/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="36" column="25" lean-forward="true" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#509#510#0" expanded="true" />
-            <element signature="e#545#546#0" expanded="true" />
-            <element signature="e#797#798#0" expanded="true" />
-            <element signature="e#881#882#0" expanded="true" />
-            <element signature="e#928#929#0" expanded="true" />
-            <element signature="e#1014#1015#0" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#487#488#0" expanded="true" />
+            <element signature="e#527#528#0" expanded="true" />
+            <element signature="e#560#561#0" expanded="true" />
+            <element signature="e#591#592#0" expanded="true" />
+            <element signature="e#637#638#0" expanded="true" />
+            <element signature="e#677#678#0" expanded="true" />
+            <element signature="e#730#731#0" expanded="true" />
+            <element signature="e#765#766#0" expanded="true" />
+            <element signature="e#795#796#0" expanded="true" />
+            <element signature="e#829#830#0" expanded="true" />
+            <element signature="e#859#860#0" expanded="true" />
+            <element signature="e#905#906#0" expanded="true" />
+            <element signature="e#943#944#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sqlMapConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MybaitsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="597">
+          <caret line="53" column="57" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="53" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2473#2482#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yueguang/model/dao/IUserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yueguang/model/dao/XUserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5.jar!/org/apache/ibatis/executor/SimpleExecutor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/yueguang/dao/IUserDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="37" column="87" selection-start-line="37" selection-start-column="87" selection-end-line="37" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yueguang/model/dao/IXUserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" selection-start-column="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/XMybaitsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="53" column="33" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbcConfig.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
         </state>
       </provider>
     </entry>

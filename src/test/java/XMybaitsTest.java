@@ -15,6 +15,7 @@ import java.io.IOException;
 import java.io.InputStream;
 
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 public class XMybaitsTest {
@@ -41,6 +42,17 @@ public class XMybaitsTest {
         for (User user : users){
             System.out.println(user);
         }
+    }
+
+    @Test
+    public void saveUser(){
+        User userone = new User();
+        userone.setUsername("月光-Two");
+        userone.setAddress("广州");
+        userone.setSex(1);
+        userone.setBirthday(new Date());
+        iuserDao.saveUser(userone);
+        System.out.print("User.id()=" + userone.getId());
     }
 
     @Test

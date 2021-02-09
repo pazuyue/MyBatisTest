@@ -27,4 +27,6 @@ public interface IXUserDao {
      * @return
      */
     List<User> findUserInIds(QueryVo queryVo);
+
+    int saveUser(User user);
 }

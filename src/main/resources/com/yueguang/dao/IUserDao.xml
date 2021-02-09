@@ -34,4 +34,9 @@
             </if>
         </where>
     </select>
+
+    <insert id="saveUser" parameterType="user" useGeneratedKeys="true" keyProperty="id">
+      insert into user(username,address,sex,birthday) values(#{username},#{address},#{sex},#{birthday})
+    </insert>
+
 </mapper>
