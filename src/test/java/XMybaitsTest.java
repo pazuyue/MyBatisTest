@@ -41,13 +41,14 @@ public class XMybaitsTest {
         List<User> users = iuserDao.findAll();
         for (User user : users){
             System.out.println(user);
+            System.out.println(user.getAccounts());
         }
     }
 
     @Test
     public void saveUser(){
         User userone = new User();
-        userone.setUsername("月光-Two");
+        userone.setUsername("月光-One");
         userone.setAddress("广州");
         userone.setSex(1);
         userone.setBirthday(new Date());

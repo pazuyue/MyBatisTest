@@ -9,7 +9,7 @@ import java.util.List;
 public interface IXUserDao {
 
     /**
-     * 查询所有
+     * 查询所有用户，同时获取所有账户信息
      * @return
      */
     List<User> findAll();

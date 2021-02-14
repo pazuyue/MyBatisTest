@@ -23,5 +23,6 @@
         <!--基于注解配置-->
         <!--<mapper class="com.yueguang.model.dao.IUserDao"/>-->
         <mapper resource="com/yueguang/dao/IUserDao.xml"/>
+        <mapper resource="com/yueguang/dao/IAccountDao.xml"/>
     </mappers>
 </configuration>

@@ -5,11 +5,25 @@
 
 <mapper namespace="com.yueguang.model.dao.IXUserDao">
 
+    <resultMap id="userAccountMap" type="user">
+        <id property="id" column="id"></id>
+        <result column="username" property="username"></result>
+        <result column="address" property="address"></result>
+        <result column="sex" property="sex"></result>
+        <result column="birthday" property="birthday"></result>
+        <!--配置User对象中accounts集合映射-->
+        <collection property="accounts" ofType="account">
+            <id column="aid" property="id"></id>
+            <result column="uid" property="uid"></result>
+            <result column="money" property="money"></result>
+        </collection>
+    </resultMap>
+
     <sql id="defaultUser">
         select * from User
     </sql>
-    <select id="findAll" resultType="user">
-       <include refid="defaultUser"/>
+    <select id="findAll" resultMap="userAccountMap">
+       SELECT * FROM  `User` u LEFT JOIN account a ON u.id = a.uid
     </select>
 
     <select id="findUserByCondition" resultType="user" parameterType="user">
@@ -36,7 +50,7 @@
     </select>
 
     <insert id="saveUser" parameterType="user" useGeneratedKeys="true" keyProperty="id">
-      insert into user(username,address,sex,birthday) values(#{username},#{address},#{sex},#{birthday})
+      insert into User(username,address,sex,birthday) values(#{username},#{address},#{sex},#{birthday})
     </insert>
 
 </mapper>
