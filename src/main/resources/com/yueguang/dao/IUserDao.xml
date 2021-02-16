@@ -20,10 +20,10 @@
     </resultMap>
 
     <sql id="defaultUser">
-        select * from User
+        select * from user
     </sql>
     <select id="findAll" resultMap="userAccountMap">
-       SELECT * FROM  `User` u LEFT JOIN account a ON u.id = a.uid
+       SELECT * FROM  `user` u LEFT JOIN account a ON u.id = a.uid
     </select>
 
     <select id="findUserByCondition" resultType="user" parameterType="user">
@@ -50,7 +50,7 @@
     </select>
 
     <insert id="saveUser" parameterType="user" useGeneratedKeys="true" keyProperty="id">
-      insert into User(username,address,sex,birthday) values(#{username},#{address},#{sex},#{birthday})
+      insert into user(username,address,sex,birthday) values(#{username},#{address},#{sex},#{birthday})
     </insert>
 
 </mapper>
