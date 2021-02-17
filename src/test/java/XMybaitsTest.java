@@ -90,5 +90,11 @@ public class XMybaitsTest {
        }
     }
 
+    @Test
+    public void TestfindById(){
+        User user = iuserDao.findById(1);
+        System.out.println(user);
+    }
+
 
 }

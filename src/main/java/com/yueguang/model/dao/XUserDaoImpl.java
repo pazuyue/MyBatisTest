@@ -54,5 +54,11 @@ public class XUserDaoImpl implements IXUserDao {
        return  userid;
     }
 
+    public User findById(int id) {
+        IXUserDao ixUserDao =session.getMapper(IXUserDao.class);
+        User user =ixUserDao.findById(id);
+        return user;
+    }
+
 
 }

@@ -64,5 +64,9 @@
     <insert id="saveUser" parameterType="user" useGeneratedKeys="true" keyProperty="id">
       insert into user(username,address,sex,birthday) values(#{username},#{address},#{sex},#{birthday})
     </insert>
+    
+    <select id="findById" parameterType="INT" resultType="user">
+        select * from user where id = #{uid}
+    </select>
 
 </mapper>
