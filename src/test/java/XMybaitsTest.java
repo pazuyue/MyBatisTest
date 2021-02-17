@@ -46,6 +46,15 @@ public class XMybaitsTest {
     }
 
     @Test
+    public void TestFindRouleAll(){
+        List<User> users = iuserDao.findRouleAll();
+        for (User user : users){
+            System.out.println(user);
+            System.out.println(user.getRoles());
+        }
+    }
+
+    @Test
     public void saveUser(){
         User userone = new User();
         userone.setUsername("月光-One");

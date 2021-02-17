@@ -30,6 +30,12 @@ public class XUserDaoImpl implements IXUserDao {
         return users;
     }
 
+    public List<User> findRouleAll() {
+        IXUserDao ixUserDao =session.getMapper(IXUserDao.class);
+        List<User> users =ixUserDao.findRouleAll();
+        return users;
+    }
+
     public List<User> findUserByCondition(User user) {
         IXUserDao ixUserDao =session.getMapper(IXUserDao.class);
         List<User> users =ixUserDao.findUserByCondition(user);

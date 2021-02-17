@@ -15,6 +15,12 @@ public interface IXUserDao {
     List<User> findAll();
 
     /**
+     * 多对多关系映射，查询用户信息，包括权限
+     * @return
+     */
+    List<User> findRouleAll();
+
+    /**
      * 传入根据条件查询
      * @param user
      * @return

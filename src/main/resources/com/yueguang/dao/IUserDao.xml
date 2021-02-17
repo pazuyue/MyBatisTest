@@ -17,6 +17,12 @@
             <result column="uid" property="uid"></result>
             <result column="money" property="money"></result>
         </collection>
+        <!--配置角色集合的映射-->
+        <collection property="roles" ofType="role">
+            <id property="roleId" column="rid"></id>
+            <result property="roleName" column="role_name"></result>
+            <result property="roleDesc" column="role_desc"></result>
+        </collection>
     </resultMap>
 
     <sql id="defaultUser">
@@ -24,6 +30,12 @@
     </sql>
     <select id="findAll" resultMap="userAccountMap">
        SELECT * FROM  `user` u LEFT JOIN account a ON u.id = a.uid
+    </select>
+
+    <select id="findRouleAll" resultMap="userAccountMap">
+        SELECT u.*,r.id AS rid,r.role_name,r.role_desc FROM `user` u
+        LEFT OUTER JOIN user_role ur on u.id = ur.uid
+        LEFT OUTER JOIN role r  on r.id = ur.rid
     </select>
 
     <select id="findUserByCondition" resultType="user" parameterType="user">
